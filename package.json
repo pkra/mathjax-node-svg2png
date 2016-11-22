@@ -1,0 +1,33 @@
+{
+  "name": "mathjax-node-svg2png",
+  "version": "1.0.0",
+  "description": "Extend mathjax-node using svg2png",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathjax/mathjax-node-svg2png.git"
+  },
+  "keywords": [
+    "mathjax",
+    "math",
+    "tex",
+    "mathml",
+    "png"
+  ],
+  "author": "MathJax Consortium",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathjax/mathjax-node-svg2png/issues"
+  },
+  "homepage": "https://github.com/mathjax/mathjax-node-svg2png#readme",
+  "dependencies": {
+    "mathjax-node": "mathjax/mathjax-node#develop",
+    "svg2png": "*"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}

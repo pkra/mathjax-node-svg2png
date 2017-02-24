@@ -1,6 +1,6 @@
 {
   "name": "mathjax-node-svg2png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extend mathjax-node using svg2png",
   "main": "./lib/main.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/mathjax/mathjax-node-svg2png#readme",
   "dependencies": {
-    "mathjax-node": "mathjax/mathjax-node#develop",
+    "mathjax-node": ">=1.0.0-beta.0",
     "svg2png": "*"
   },
   "devDependencies": {

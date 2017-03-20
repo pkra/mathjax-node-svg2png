@@ -6,7 +6,7 @@ It can be used as a drop-in replacement for mathjax-node.
 
 Use
 
-    npm install pkra/mathjax-node-svg2png
+    npm install mathjax-node-svg2png
 
 to install mathjax-node-svg2png and its dependencies.
 

@@ -1,6 +1,6 @@
 {
   "name": "mathjax-node-svg2png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extend mathjax-node using svg2png",
   "main": "./lib/main.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathjax/mathjax-node-svg2png.git"
+    "url": "git+https://github.com/pkra/mathjax-node-svg2png.git"
   },
   "keywords": [
     "mathjax",
@@ -20,11 +20,11 @@
   "author": "MathJax Consortium",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mathjax/mathjax-node-svg2png/issues"
+    "url": "https://github.com/pkra/mathjax-node-svg2png/issues"
   },
-  "homepage": "https://github.com/mathjax/mathjax-node-svg2png#readme",
+  "homepage": "https://github.com/pkra/mathjax-node-svg2png#readme",
   "dependencies": {
-    "mathjax-node": ">=1.0.0-beta.0",
+    "mathjax-node": "^1.0.0",
     "svg2png": "*"
   },
   "devDependencies": {

@@ -12,8 +12,12 @@ to install mathjax-node-svg2png and its dependencies.
 
 ## Use
 
-This module is used like mathjax-node, extending the input `data` object with a new option
+This module is used like mathjax-node, extending the input `data` object with new options
 
-    png: false,               // enable PNG generation
+   png: false              // enable PNG generation
+   scale: 1                // scaling factor to apply during conversion
 
-Similarly, mathjax-node's `result` object is extended with a new key `png` containing the resulting data-uri string.
+Similarly, mathjax-node's `result` object is extended with new keys `png` (containing the resulting data-uri string) and `pngWidth` (PNG width in pixel).
+
+    png:                   // PNG results
+    pngWidth:              // width (in pixel)

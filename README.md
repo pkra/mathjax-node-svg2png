@@ -1,5 +1,7 @@
 # mathjax-node-svg2png [![Build Status](https://travis-ci.org/pkra/mathjax-node-svg2png.svg?branch=master)](https://travis-ci.org/pkra/mathjax-node-svg2png)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pkra/mathjax-node-svg2png.svg)](https://greenkeeper.io/)
+
 This module extends [mathjax-node](https://www.npmjs.com/package/mathjax-node) using [svg2png](https://www.npmjs.com/package/svg2png).
 
 It can be used as a drop-in replacement for mathjax-node.

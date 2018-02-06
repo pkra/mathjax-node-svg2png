@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/pkra/mathjax-node-svg2png#readme",
   "dependencies": {
-    "mathjax-node": "^1.0.0",
+    "mathjax-node": "^2.0.0",
     "svg2png": "*"
   },
   "devDependencies": {
